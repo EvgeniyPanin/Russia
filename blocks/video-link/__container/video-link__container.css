@@ -1,0 +1,33 @@
+.video-link__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 70%;
+    color: #ffffff;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 80%;
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    .video-link__container {
+        bottom: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video-link__container {
+        left: 24px;
+        bottom: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .video-link__container {
+        left: 16px;
+        bottom: 16px;
+        max-width: 100%;
+    }
+}

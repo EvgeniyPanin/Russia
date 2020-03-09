@@ -1,0 +1,22 @@
+.video-link__play {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-image: url(../../../images/__icon_play.svg);
+}
+
+@media (max-width: 768px) {
+    .video-link__play {
+        top: 25px;
+        left: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .video-link__play {
+        top: 16px;
+        left: 16px;
+    }
+}

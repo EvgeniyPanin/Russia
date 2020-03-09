@@ -1,0 +1,16 @@
+@import url('./__logo/header__logo.css');
+@import url('../header/__container/header__container.css');
+@import url('./__language-block/header__language-block.css');
+@import url('./__lang/header__lang.css');
+@import url('./__lang/_type/_active/header__lang_type_active.css');
+@import url('./__lang-item/header__lang-item.css');
+
+.header {
+    padding-top: 30px;
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding-top: 16px;
+    }
+}

@@ -1,0 +1,33 @@
+@import url('./__title/place-card__title.css');
+@import url('./__brief-container/place-card__brief-container.css');
+@import url('../url-column/url-column.css');
+@import url('../url-column/__url-title/url-column__url-title.css');
+@import url('../url-column/__url/url-column__url.css');
+@import url('./__content-container/place-card__content-container.css');
+@import url('./__image/place-card__image.css');
+@import url('./__paragraph/place-card__paragraph.css');
+@import url('../url-column/_place/_attractions/url-column_place_attractions.css');
+@import url('../url-column/__url-title/_place/_attractions/url-column__url-title_place_attractions.css');
+@import url('./__image/_about/_kursh-kosa/place-card__image_about_kursh-kosa.css');
+@import url('./__image/_about/_kolski/place-card__image_about_kolski.css');
+@import url('./__image/_about/_altai/place-card__image_about_altai.css');
+@import url('./__image/_about/_winter-baikal/place-card__image_about_winter-baikal.css');
+@import url('./__image/_about/_karelia/place-card__image_about_karelia.css');
+
+
+.place-card {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 79px;
+}
+
+.place-card:last-of-type {
+    padding: 0;
+}
+
+@media (max-width: 530px) {
+    .place-card {
+        padding-bottom: 46px;
+    }
+}

@@ -1,0 +1,18 @@
+.lead__map-container {
+    margin: 0 auto;
+    padding-top: 73px;
+    width: 91%;
+    max-width: 984px;
+}
+
+@media (max-width:768px) {
+    .lead__map-container {
+        width: 100%;
+    }
+}
+
+@media (max-width:580px) {
+    .lead__map-container {
+        padding-top: 33px;
+    }
+}

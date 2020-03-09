@@ -1,0 +1,16 @@
+.additional__card {
+    display: flex;
+    min-height: 330px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.additional__card::before {
+    content: '';
+    width: 284px;
+    height: 330px;
+    background-color: rgba(0,0,0, .5);
+    position: absolute;
+    z-index: 1;
+}

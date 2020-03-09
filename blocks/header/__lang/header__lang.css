@@ -1,0 +1,17 @@
+.header__lang {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: .95;
+    text-decoration: none;
+}
+
+.header__lang:hover {
+	opacity: .48;
+	transition: ease-out .29s;
+}
+
+@media (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}

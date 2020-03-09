@@ -1,0 +1,12 @@
+.cite-card__author {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media (max-width: 768px) {
+    .cite-card__author {
+        padding: 114px 0 15px;
+    }
+}

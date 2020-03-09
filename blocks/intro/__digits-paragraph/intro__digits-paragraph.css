@@ -1,0 +1,15 @@
+.intro__digits-paragraph {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    border: none;
+}
+
+@media (max-width: 375px) {
+    .intro__digits-paragraph {
+       font-size: 12px;
+    }
+}

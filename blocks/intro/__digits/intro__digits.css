@@ -1,0 +1,10 @@
+.intro__digits {
+    max-width: 300px;
+    margin-top: 27px;
+}
+
+@media (max-width: 375px) {
+    .intro__digits {
+        margin-top: 35px;
+    }
+}

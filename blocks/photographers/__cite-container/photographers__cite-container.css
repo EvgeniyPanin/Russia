@@ -1,0 +1,28 @@
+.photographers__cite-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    min-height: 100px;
+    grid-gap: 19px;
+    padding-top: 65px;
+}
+
+@media (max-width: 768px) {
+    .photographers__cite-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-row-gap: 47px;
+    }
+}
+
+@media (max-width: 375px) {
+    .photographers__cite-container {
+        padding-top: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photographers__cite-container {
+        padding-top: 33px;
+    }
+}

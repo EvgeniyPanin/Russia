@@ -1,0 +1,19 @@
+@import url('../section-title/section-title.css');
+@import url('../section-subtitle/section-subtitle.css');
+@import url('./__card-container/additional__card-container.css');
+@import url('./__card/additional__card.css');
+@import url('./__card-title/additional__card-title.css');
+@import url('./__card-content/additional__card-content.css');
+@import url('./__card/_place/_novor-buhta/additional__card_place_novor-buhta.css');
+@import url('./__card/_place/_arakul-shihan/additional__card_place_arakul-shihan.css');
+@import url('./__card/_place/_sherepovec/additional__card_place_sherepovec.css');
+@import url('./__card/_place/_nikola-lenivec/additional__card_place_nikola-lenivec.css');
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-top: 100px;
+}

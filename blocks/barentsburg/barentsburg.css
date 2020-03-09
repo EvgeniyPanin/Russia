@@ -1,0 +1,17 @@
+@import url('./__map/barentsburg__map.css');
+@import url('./__coordinates/barentsburg__coordinates.css');
+@import url('./__info-container/barentsburg__info-container.css');
+@import url('./__content-column/barentsburg__content-column.css');
+@import url('../url-column/url-column.css');
+@import url('../url-column/__url-title/url-column__url-title.css');
+@import url('../url-column/__url/url-column__url.css');
+@import url('./__paragraph/barentsburg__paragraph.css');
+@import url('../url-column/_place/_barentsburg/url-column_place_barentsburg.css');
+@import url('../url-column/__url-title/_place/_barentsburg/url-column__url-title_place_barentsburg.css');
+
+
+.barentsburg {
+    max-width: 1184px;
+    padding-top: 82px;
+    margin: 0 auto;
+}

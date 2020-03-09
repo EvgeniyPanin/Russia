@@ -1,0 +1,9 @@
+.place-card__brief-container {
+    display: flex;
+}
+
+@media (max-width: 530px) {
+    .place-card__brief-container {
+        justify-content: center;
+    }
+}

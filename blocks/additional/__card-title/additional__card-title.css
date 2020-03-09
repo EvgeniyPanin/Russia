@@ -1,0 +1,9 @@
+.additional__card-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+    color: #fff;
+    margin: 29px 18px 0;
+    z-index: 2;
+}

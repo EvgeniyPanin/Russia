@@ -1,0 +1,9 @@
+.cite-card_author_hafizov::before {
+    content: '';
+    width: 98px;
+    height: 98px;
+    z-index: 1;
+    background-image: url(../../../../images/photographers/hafizow.jpg);
+    border-radius: 50%;
+    position: absolute;
+}

@@ -1,0 +1,11 @@
+.additional__card-container {
+    width: 100%;
+    min-height: 330px;
+    height: fit-content;
+    padding-top: 66px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 284px);
+    grid-template-rows: repeat(auto-fill, 330px);
+    grid-gap: 16px;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.place-card__content-container {
+    display: flex;
+    padding-top: 57px;
+}
+
+@media (max-width: 1024px) {
+    .place-card__content-container {
+        padding-top: 37px;
+    }
+}
+
+@media (max-width: 530px) {
+    .place-card__content-container {
+        flex-direction: column;
+        padding-top: 29px;
+    }
+}
+

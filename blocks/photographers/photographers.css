@@ -1,0 +1,25 @@
+@import url('../section-title/section-title.css');
+@import url('../section-subtitle/section-subtitle.css');
+@import url('./__cite-container/photographers__cite-container.css');
+@import url('../cite-card/cite-card.css');
+@import url('../cite-card/__content/cite-card__content.css');
+@import url('../cite-card/_author/_lyagushkin/cite-card_author_lyagushkin.css');
+@import url('../cite-card/_author/_hafizov/cite-card_author_hafizov.css');
+@import url('../cite-card/_author/_maksimishin/cite-card_author_maksimishin.css');
+@import url('../cite-card/__author/cite-card__author.css');
+
+.photographers {
+    width: 91%;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 95px;
+}
+
+@media (max-width: 530px) {
+    .photographers {
+        padding-top: 57px;
+    }
+}

@@ -1,0 +1,9 @@
+.additional__card-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0 18px 27px;
+    z-index: 2;
+}

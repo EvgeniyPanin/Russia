@@ -1,0 +1,30 @@
+.place-card__image {
+    /* display: inline-block; */
+    flex-shrink: 0;
+    width: 47%;
+    margin-right: 40px;
+    height: fit-content;
+    padding-bottom: 47%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .place-card__image {
+        margin: 0 32px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .place-card__image {
+        margin: 0 28px 0 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .place-card__image {
+        width: 100%;
+        padding-bottom: 100%;
+        margin: 0;
+    }
+}

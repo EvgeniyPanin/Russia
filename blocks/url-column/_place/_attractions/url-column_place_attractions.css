@@ -1,0 +1,9 @@
+.url-column_place_attractions {
+    justify-content: flex-end;
+}
+
+@media (max-width: 530px) {
+    .url-column_place_attractions {
+        display: none;
+    }
+}

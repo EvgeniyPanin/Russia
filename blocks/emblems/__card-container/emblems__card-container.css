@@ -1,0 +1,9 @@
+.emblems__card-container {
+    list-style-type: none;
+    padding: 75px 0 0;
+    margin: 0;
+    min-width: 208px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 208px);
+    grid-gap: 35px;
+}

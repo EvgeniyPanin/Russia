@@ -1,0 +1,20 @@
+@import url('./__title/intro__title.css');
+@import url('./__digits/intro__digits.css');
+@import url('./__digits-paragraph/intro__digits-paragraph.css');
+@import url('../bold-font/bold-font.css');
+@import url('./__text/intro__text.css');
+
+.intro {
+    margin: 0 auto;
+    width: 91%;
+    max-width: 984px;
+    padding-top: 79px;
+    margin: 0 auto;
+}
+
+@media (max-width: 748px) {
+    .intro {
+        font-size: 32px;
+        padding-top: 63px;
+    }
+}

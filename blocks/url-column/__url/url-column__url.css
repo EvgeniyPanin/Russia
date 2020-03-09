@@ -1,0 +1,12 @@
+.url-column__url {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.url-column__url:hover {
+	opacity: .48;
+	transition: ease-out .29s;
+}

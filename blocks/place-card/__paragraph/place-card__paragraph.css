@@ -1,0 +1,31 @@
+.place-card__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 24px 0 0;
+}
+
+@media (max-width: 768px) {
+    .place-card__paragraph {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 530px) {
+    .place-card__paragraph {
+        width: 91%;
+        margin: 24px auto 0;
+}
+}
+
+@media (min-width: 530px) {
+    .place-card__paragraph {
+        width: 91%;
+    }
+    .place-card__paragraph:first-of-type {
+    margin: 0;
+}
+}
+

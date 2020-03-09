@@ -1,0 +1,17 @@
+.footer__copiright {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+    color: #ffffff;
+}
+
+@media (max-width: 580px) {
+    .footer__copiright {
+        width: 100%;
+        text-align: start;
+        margin-top: 40px;
+    }
+}

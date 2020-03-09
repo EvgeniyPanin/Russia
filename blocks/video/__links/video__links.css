@@ -1,0 +1,17 @@
+.video__links {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    min-height: 200px;
+    max-width: 1184px;
+    min-width: 300px;
+    margin: 66px 0 0;
+    padding: 0;
+}
+
+@media (max-width: 550px) {
+    .video__links {
+        flex-direction: column;
+        margin: 34px 0 0;
+    }
+}

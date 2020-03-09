@@ -1,0 +1,11 @@
+@import url('../section-left-title/section-left-title.css');
+@import url('../emblem-card/emblem-card.css');
+@import url('./__card-container/emblems__card-container.css');
+@import url('../emblem-card/__name/emblem-card__name.css');
+@import url('../emblem-card/__image/emblem-card__image.css');
+
+.emblems {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-top: 80px;
+}

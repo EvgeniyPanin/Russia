@@ -1,0 +1,29 @@
+@import url('../section-title/section-title.css');
+@import url('../section-subtitle/section-subtitle.css');
+@import url('./__links/video__links.css');
+@import url('../video-link/video-link.css');
+@import url('../video-link/__play/video-link__play.css');
+@import url('../video-link/__container/video-link__container.css');
+@import url('../video-link/__time/video-link__time.css');
+@import url('../video-link/__title/video-link__title.css');
+@import url('../video-link/__capture/video-link__capture.css');
+@import url('../video-link/_about/_kamchatka/video-link_about_kamchatka.css');
+@import url('../video-link/_about/_observatory/video-link_about_observatory.css');
+@import url('../video-link/__link/video-link__link.css');
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 91%;
+    max-width: 1184px;
+    padding-top: 103px;
+    margin: 0 auto;
+}
+
+@media (max-width: 550px) {
+    .video {
+        padding-top: 65px;
+    }
+}   

@@ -1,0 +1,12 @@
+.lead__map {
+    width: 100%;
+    min-height: 211px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .lead__map {
+        max-height: 420px;
+    }
+}
