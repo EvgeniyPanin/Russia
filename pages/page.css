@@ -47,9 +47,9 @@
 }
 
 
-/* div, a, h1, p, h2, h3, h4 {
+div, a, h1, p, h2, h3, h4 {
   border: 1px solid red;
-} */
+}
 
 .page {
     min-width: 320px;
